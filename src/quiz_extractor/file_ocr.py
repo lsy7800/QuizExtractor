@@ -68,7 +68,9 @@ class FileOCR:
         try:
             # 将PDF转换为图片
             images = convert_from_path(self.file_path, dpi=300)
+            print(images)
 
+            breakpoint()
             # 识别结果存储
             all_text = []
 

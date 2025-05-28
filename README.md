@@ -40,7 +40,7 @@ QuizExtractor is a LangChain-based document intelligence system that automatical
 graph TD
     A[Input PDF/Image] --> B(LangChain Document Loader)
     B --> C{OCR?}
-    C -->|Yes| D[Tesseract Processing]
+    C -->|Yes| D[Aliyun OCR Processing]
     C -->|No| E[Text Extraction]
     D --> F[Chunking Strategy]
     E --> F
