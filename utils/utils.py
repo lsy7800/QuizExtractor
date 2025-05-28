@@ -1,5 +1,7 @@
 import json
 import os
+import fitz
+from PIL import Image
 
 
 class Utils:
@@ -38,3 +40,26 @@ class Utils:
 
         except Exception as e:
             print("❌ 处理失败：", e)
+
+    @staticmethod
+    def pdf2img(pdf_path, pic_folder):
+        dpi = 300   # 图片分辨率（DPI），建议300
+        os.makedirs(pic_folder, exist_ok=True)  # 创建输出文件夹
+        doc = fitz.open(pdf_path)   # 构建对象
+        base_name = os.path.splitext(pdf_path)[0]   # 获取PDF名称
+        print(f"📄 正在处理：{base_name} （共 {len(doc)} 页）")
+        for page_num in range(len(doc)):
+            page = doc.load_page(page_num)
+            pix = page.get_pixmap(dpi=dpi)
+            image = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
+            # 保存图片
+            image_name = f"{base_name}_page{page_num + 1}.png"
+            image_path = os.path.join(pic_folder, image_name)
+            image.save(image_path, "PNG")
+            print(f" ✅ 已保存：{image_name}")
+        print("\n 所有PDF已转换为PNG图片！输出目录：", pic_folder)
+
+
+if __name__ == "__main__":
+    file_path = "../pdf_pics/jp_n2_2016.pdf"
+    Utils.pdf2img(file_path, '../pdf_pics')

@@ -8,4 +8,5 @@ dependencies = [
     "alibabacloud-tea-console>=0.0.1",
     "langchain>=0.3.25",
     "pdf2image>=1.17.0",
+    "pymupdf>=1.26.0",
 ]

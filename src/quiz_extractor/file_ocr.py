@@ -76,7 +76,7 @@ class FileOCR:
 
             for i, image in enumerate(images):
                 # 调用阿里云小语种识别接口进行内容识别
-                pass
+                print(i, image)
 
             return "\n\n".join(all_text)
 
