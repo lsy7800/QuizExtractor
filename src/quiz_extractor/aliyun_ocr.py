@@ -85,7 +85,7 @@ class Sample:
         resp = client.call_api(params, request, runtime)
         if resp.get('statusCode') == 200:
             Utils.extract_resp(resp)
-        ConsoleClient.log(UtilClient.to_jsonstring(resp))
+        # ConsoleClient.log(UtilClient.to_jsonstring(resp))
 
     @staticmethod
     async def main_async(args: List[str],) -> None:
@@ -112,6 +112,6 @@ class Sample:
 
 if __name__ == '__main__':
     # 替换为你的图片路径
-    file_path = r'D:\Wrok\WebSiteProjects\BackEnd\QuizExtractor\pdf_pics\2016年12月日语N1真题_page1.png'
+    file_path = r'D:\Wrok\WebSiteProjects\BackEnd\QuizExtractor\pdf_pics\jp_n2_2016_page1.png'
     Sample.main(sys.argv[1:], file_path)
 

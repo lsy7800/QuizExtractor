@@ -7,7 +7,8 @@ from PIL import Image
 class Utils:
     """
     工具类
-    extract_resp:用于解析阿里云ocr识别的内容并存储到out_put.txt
+    extract_resp: 用于解析阿里云ocr识别的内容并存储到out_put.txt,
+    pdf2image: 用于将pdf文件转换为png格式并存储到指定文件夹中
     """
 
     # 识别内容并保存至临时文件中
@@ -31,8 +32,8 @@ class Utils:
 
             # Step 3: 写入文件
             if content:
-                print(content)
-                with open(out_put_path + '/ocr_text.txt', "a", encoding="utf-8") as f:
+                print(content[:300] + '...')
+                with open(out_put_path+'/ocr_text.txt', "a", encoding="utf-8") as f:
                     f.write(content)
                 print(f"✅ 内容已保存至：{out_put_path}/ocr_text.txt")
             else:
@@ -43,7 +44,7 @@ class Utils:
 
     @staticmethod
     def pdf2img(pdf_path, pic_folder):
-        dpi = 300   # 图片分辨率（DPI），建议300
+        dpi = 150   # 图片分辨率（DPI），建议300, 阿里云接口要求图像不能过大，修改为150
         os.makedirs(pic_folder, exist_ok=True)  # 创建输出文件夹
         doc = fitz.open(pdf_path)   # 构建对象
         base_name = os.path.splitext(pdf_path)[0]   # 获取PDF名称
