@@ -85,6 +85,8 @@ class Sample:
         resp = client.call_api(params, request, runtime)
         if resp.get('statusCode') == 200:
             Utils.extract_resp(resp)
+        else:
+            print(resp.get('statusCode'))
         # ConsoleClient.log(UtilClient.to_jsonstring(resp))
 
     @staticmethod

@@ -1,12 +1,14 @@
 import sys
 import os
 
+
 from langchain_community.document_loaders import PyPDFLoader
 from tkinter import filedialog, Tk
 from tkinter import ttk
 from tkinter import messagebox
 from utils.utils import Utils
 from aliyun_ocr import Sample
+from natsort import natsorted
 
 
 class FileOCR:
@@ -37,6 +39,10 @@ class FileOCR:
             if not self.file_path:
                 messagebox.showwarning("取消", "未选择文件")
                 sys.exit(0)
+            # 删除用于存储内容的txt文件
+            if os.path.exists("../../output/ocr_text.txt"):
+                os.remove("../../output/ocr_text.txt")
+
             # 自动检测PDF类型
             self._detect_pdf_type()
         except Exception as e:
@@ -64,9 +70,10 @@ class FileOCR:
         """处理图片类型的PDF"""
         try:
 
-            pic_path = '../../pdf_pics'
+            pic_path = os.path.abspath('../../pdf_pics')
+            print(pic_path)
             Utils.pdf2img(self.file_path, pic_path)   # 将PDF转换为图片
-            pic_files = [pic_path + '/' + f for f in os.listdir(pic_path) if f.lower().endswith(".png")]
+            pic_files = natsorted([pic_path + '/' + f for f in os.listdir(pic_path) if f.lower().endswith(".png")])
 
             print(pic_files)
             for p, pic_file in enumerate(pic_files):
@@ -96,9 +103,6 @@ class FileOCR:
 
 
 if __name__ == '__main__':
-    # 删除文件夹
-    if os.path.exists("../../output/ocr_text.txt"):
-        os.remove("../../output/ocr_text.txt")
     loader = None
     # 分情况进行处理
     try:
@@ -118,5 +122,12 @@ if __name__ == '__main__':
     except Exception as e:
         print(f"发生了错误：{str(e)}")
     finally:
+        # 删除pdf转换的图片文件
+        # pic_list = [p for p in os.listdir(os.path.abspath("../../pdf_pics")) if p.lower().endswith(".png")]
+        # if pic_list:
+        #     for p in pic_list:
+        #         os.remove(f"../../pdf_pics/{p}")
+        # 释放资源
         if loader is not None:
             loader._cleanup()
+
