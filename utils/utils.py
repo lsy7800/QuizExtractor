@@ -47,17 +47,18 @@ class Utils:
         dpi = 150   # 图片分辨率（DPI），建议300, 阿里云接口要求图像不能过大，修改为150
         os.makedirs(pic_folder, exist_ok=True)  # 创建输出文件夹
         doc = fitz.open(pdf_path)   # 构建对象
-        base_name = os.path.splitext(pdf_path)[0]   # 获取PDF名称
-        print(f"📄 正在处理：{base_name} （共 {len(doc)} 页）")
+        base_name = os.path.splitext(pdf_path)[0].split('/')[-1]   # 获取PDF名称
+        print(f"📄 正在处理：{base_name} (共 {len(doc)} 页)")
         for page_num in range(len(doc)):
             page = doc.load_page(page_num)
             pix = page.get_pixmap(dpi=dpi)
             image = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
             # 保存图片
+            pic_folder = os.path.relpath(pic_folder)
             image_name = f"{base_name}_page{page_num + 1}.png"
             image_path = os.path.join(pic_folder, image_name)
             image.save(image_path, "PNG")
-            print(f" ✅ 已保存：{image_name}")
+            print(f" ✅ 已保存：{pic_folder + '\\' + image_name}")
         print("\n 所有PDF已转换为PNG图片！输出目录：", pic_folder)
 
 
