@@ -11,7 +11,7 @@ class DeepSeekModel:
             model="deepseek-chat",
             temperature=0.7,
             max_tokens=1024,
-            timeout=30,
+            timeout=60,
             max_retries=3,
         )
 
@@ -25,7 +25,7 @@ class ChatGPTModel:
 
 class ClaudeModel:
     """
-
+    claude model
     """
     pass
 

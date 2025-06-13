@@ -1,6 +1,6 @@
 from enum import Enum
-from typing import Union, Optional
-from pydantic import BaseModel
+from typing import Union, Optional, List, Dict, Any
+from pydantic import BaseModel, Field
 
 
 class QuestionType(str, Enum):
@@ -40,4 +40,7 @@ class ReadingComprehensionQuestion(BaseQuestion):
     sub_questions: list[Union[MultiChoiceQuestion]]  # 子问题
 
 
-Question = Union[MultiChoiceQuestion, CLOZEQuestion, ReadingComprehensionQuestion]
+class ExamPaper(BaseModel):
+    """试卷模型"""
+    exam_info: Dict[str, str] = Field(description="试卷信息")
+    questions: list[Union[MultiChoiceQuestion, ReadingComprehensionQuestion]] = Field(description="题目列表")

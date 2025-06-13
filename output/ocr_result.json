@@ -1,0 +1,314 @@
+{
+    "exam_info": {
+        "extraction_date": "2025-06-13T15:18:57.181593",
+        "total_chunks": 5,
+        "content_length": 3032,
+        "total_questions_extracted": 25,
+        "extraction_errors_count": 1
+    },
+    "multiple_choice": [
+        {
+            "question_id": "1",
+            "question_type": "multiple_choice",
+            "question_text": "社会活動に参加することで人脉を広げることができた",
+            "options": [
+                "じんみゃく",
+                "じんまく",
+                "にんみゃく",
+                "にんまく"
+            ],
+            "correct_answer": "1.じんみゃく"
+        },
+        {
+            "question_id": "2",
+            "question_type": "multiple_choice",
+            "question_text": "鈴木さんは指摘がいつも的碓で本当に賛い人だと思う",
+            "options": [
+                "するどい",
+                "かしこい",
+                "すごい",
+                "えらい"
+            ],
+            "correct_answer": "1.するどい"
+        },
+        {
+            "question_id": "3",
+            "question_type": "multiple_choice",
+            "question_text": "文化の違いが食生活に顕著に现れている",
+            "options": [
+                "げんちょ",
+                "けんしょ",
+                "けんちょ",
+                "げんしょ"
+            ],
+            "correct_answer": "3.けんちょ"
+        },
+        {
+            "question_id": "4",
+            "question_type": "multiple_choice",
+            "question_text": "相談の内容は多岐にわたった",
+            "options": [
+                "たき",
+                "たじ",
+                "たぎ",
+                "たし"
+            ],
+            "correct_answer": "1.たき"
+        },
+        {
+            "question_id": "5",
+            "question_type": "multiple_choice",
+            "question_text": "その風醤は今はもう廃れてしまった",
+            "options": [
+                "くずれて",
+                "かすれて",
+                "つぶれて",
+                "すたれて"
+            ],
+            "correct_answer": "4.すたれて"
+        },
+        {
+            "question_id": "6",
+            "question_type": "multiple_choice",
+            "question_text": "家賃の相場は地域によって違う",
+            "options": [
+                "あいば",
+                "そうば",
+                "あいじょう",
+                "そうじょう"
+            ],
+            "correct_answer": "2.そうば"
+        },
+        {
+            "question_id": "7",
+            "question_type": "multiple_choice",
+            "question_text": "私はこの土地で定職に就き生活の を築いた",
+            "options": [
+                "根拠",
+                "基盤",
+                "根源",
+                "基地"
+            ],
+            "correct_answer": "基盤"
+        },
+        {
+            "question_id": "8",
+            "question_type": "multiple_choice",
+            "question_text": "譲論は难航すると思ったがすぐに意见がまとまり 結論が出た",
+            "options": [
+                "すんなり",
+                "うっとり",
+                "ふんわり",
+                "こっそり"
+            ],
+            "correct_answer": "すんなり"
+        },
+        {
+            "question_id": "9",
+            "question_type": "multiple_choice",
+            "question_text": "さっき駅前で佐藤さんを んですが今海外にいるはずなのに変です",
+            "options": [
+                "見合わせた",
+                "見過ごした",
+                "見か沙た",
+                "見違えた"
+            ],
+            "correct_answer": "見か沙た"
+        },
+        {
+            "question_id": "10",
+            "question_type": "multiple_choice",
+            "question_text": "市长の責任ある行動が住民の不安を し行政に対する期待が一気に高まった",
+            "options": [
+                "一掃",
+                "追放",
+                "削除",
+                "排出"
+            ],
+            "correct_answer": "一掃"
+        },
+        {
+            "question_id": "11",
+            "question_type": "multiple_choice",
+            "question_text": "十分に煮た野菜は味が 柔らかくとてもおいしかった",
+            "options": [
+                "溶けて",
+                "染みて",
+                "潤って",
+                "沈ん飞"
+            ],
+            "correct_answer": "染みて"
+        },
+        {
+            "question_id": "12",
+            "question_type": "multiple_choice",
+            "question_text": "このテーブルは私が子どものころから使っているので があって舎てられない",
+            "options": [
+                "心情",
+                "好感",
+                "熱意",
+                "愛着"
+            ],
+            "correct_answer": "愛着"
+        },
+        {
+            "question_id": "13",
+            "question_type": "multiple_choice",
+            "question_text": "現社长は創立者から経営の を学んだ",
+            "options": [
+                "データベース",
+                "ベテラン",
+                "ライフワーク",
+                "ノウハウ"
+            ],
+            "correct_answer": "ノウハウ"
+        },
+        {
+            "question_id": "14",
+            "question_type": "multiple_choice",
+            "question_text": "高橘さんにはかねがねお会いしたいと思っていました",
+            "options": [
+                "直接",
+                "ぜひ",
+                "早<",
+                "以前から"
+            ],
+            "correct_answer": "以前から"
+        },
+        {
+            "question_id": "15",
+            "question_type": "multiple_choice",
+            "question_text": "林さんはそれを故意に舎てたらしい",
+            "options": [
+                "わざと",
+                "うっかり",
+                "いやいや",
+                "さっさと"
+            ],
+            "correct_answer": "わざと"
+        },
+        {
+            "question_id": "16",
+            "question_type": "multiple_choice",
+            "question_text": "咋日鈴木さんにおわびした",
+            "options": [
+                "文句を言った",
+                "お礼を言った",
+                "断った",
+                "謝った"
+            ],
+            "correct_answer": "謝った"
+        },
+        {
+            "question_id": "17",
+            "question_type": "multiple_choice",
+            "question_text": "中村さんの言葉からは强い意気込みが伝わってくる",
+            "options": [
+                "敬意",
+                "自信",
+                "意欲",
+                "信賴"
+            ],
+            "correct_answer": "意欲"
+        },
+        {
+            "question_id": "18",
+            "question_type": "multiple_choice",
+            "question_text": "妹は少しおびえているようだった",
+            "options": [
+                "焦って",
+                "怖がって",
+                "悩ん飞",
+                "悔やん飞"
+            ],
+            "correct_answer": "怖がって"
+        },
+        {
+            "question_id": "19",
+            "question_type": "multiple_choice",
+            "question_text": "私はその一言に安堵した",
+            "options": [
+                "すっとした",
+                "はっとした",
+                "ほっとした",
+                "かっとした"
+            ],
+            "correct_answer": "ほっとした"
+        },
+        {
+            "question_id": "20",
+            "question_type": "multiple_choice",
+            "question_text": "次の言葉の使い方として最もよいものを1・2・3・4から一つ選びなさい 閑静",
+            "options": [
+                "そのレストランは繁華街から外れた閑静な場所にある",
+                "今日は朝から具合が悪かったので会社を休んで家で関静にしていた",
+                "用事が早く済み閑静な時間ができたので映画を見に行くことにした",
+                "日中はにぎやかな公園だが夜になると急に閑静になる"
+            ]
+        },
+        {
+            "question_id": "21",
+            "question_type": "multiple_choice",
+            "question_text": "次の言葉の使い方として最もよいものを1・2・3・4から一つ選びなさい たやすい",
+            "options": [
+                "弟は寝坊したらしくたやすい物だけ食べて慌てて出かけていった",
+                "伊藤氏とは大学時代からの親友で本音が言えるたやすい関係だ",
+                "せっかくの日曜日だからゆっくり休んでたやすく過ごそうと思う",
+                "この問題は想像以上に複雑でたやすく解決できるものではなかった"
+            ]
+        },
+        {
+            "question_id": "22",
+            "question_type": "multiple_choice",
+            "question_text": "次の言葉の使い方として最もよいものを1・2・3・4から一つ選びなさい 察する",
+            "options": [
+                "医師たちはチームを組み意見を出し合って最良の治療法を察した",
+                "気象予報士はテレビの天気予報で来週の気温の変化を察し始めた",
+                "鈴木さんは私が何も言わなくても私の気持ちを察して慰めてくれた",
+                "外を歩いていたら急にいいアイディアを察したので手帳にメモをした"
+            ]
+        },
+        {
+            "question_id": "23",
+            "question_type": "multiple_choice",
+            "question_text": "次の言葉の使い方として最もよいものを1・2・3・4から一つ選びなさい 内訳",
+            "options": [
+                "来週の内訳を確認したが予定がないのは木曜の夜だけだ",
+                "前回の出張費の内訳を見たら交通費の割合が予想外に高かった",
+                "司会者は進行を間違えないように式の内訳を何度も見直した",
+                "家族の健康のために栄養の内訳を考えて食事を作っている"
+            ]
+        },
+        {
+            "question_id": "24",
+            "question_type": "multiple_choice",
+            "question_text": "次の言葉の使い方として最もよいものを1・2・3・4から一つ選びなさい 食い違う",
+            "options": [
+                "この事件は複数の目撃者の話がそれぞれ食い違っており不明な点が多い",
+                "金庫を開けようと思ったがどの鍵も食い違って開けられなかった",
+                "何だか歩きにくいと思ったらサンダルの左右が食い違っていた",
+                "調味料を変えたのかこの料理はいつもと味が食い違っているように感じる"
+            ]
+        },
+        {
+            "question_id": "25",
+            "question_type": "multiple_choice",
+            "question_text": "次の言葉の使い方として最もよいものを1・2・3・4から一つ選びなさい 過密",
+            "options": [
+                "雑誌で紹介されてからこの商品への過密な注文が続いているらしい",
+                "水質汚染に関して人の抗議が過密になり政府は対策を迫られている",
+                "今回の出張は過密なスケジュールでゆっくり食事する時間もなさそうだ",
+                "春になるとこの池の周りには色とりどりの花が過密に咲き乱れる"
+            ]
+        }
+    ],
+    "cloze_question": [],
+    "reading_comprehension": [],
+    "extraction_errors": [
+        {
+            "raw_result": "```json\n[\n    {\n        \"question_id\": \"26\",\n        \"question_type\": \"multiple_choice\",\n        \"question_text\": \"朝の満員電车车内の混雑を 私の目の前に座っている学生風の男は平然と ノートパソコンを広げて作業に没弾していた\",\n        \"options\": [\"含めて\", \"もとに\", \"除いて\", \"よそに\"],\n        \"correct_answer\": \"4\"\n    },\n    {\n        \"question_id\": \"27\",\n        \"question_type\": \"multiple_choice\",\n        \"question_text\": \"私の父は もしないで漫画を批判するから本当に嫌になる\",\n        \"options\": [\"読まない\", \"読み\", \"読もう\", \"読んで\"],\n        \"correct_answer\": \"2\"\n    },\n    {\n        \"question_id\": \"28\",\n        \"question_type\": \"multiple_choice\",\n        \"question_text\": \"(卒業生へのインタビューで 聞き手学生時代にやったことで今の仕事に役立っていることは何でしょうか 田中ラグビー部での経験ですね チームワークの大切さを痛感しました ( そ れは去年企画チームのリーダーになって始めて気づいたことですが\",\n        \"options\": [\"要するに\", \"あるいは\", \"もっとも\", \"ついては\"],\n        \"correct_answer\": \"3\"\n    },\n    {\n        \"question_id\": \"29\",\n        \"question_type\": \"multiple_choice\",\n        \"question_text\": \"村の郷土史をまとめるにあたり今年 90 歳になる元村长の束山さんにお话を伺った 村に初めて汽车が走ったときのことを鲜明に覚えて その記憶力に驚いた\",\n        \"options\": [\"おいでになり\", \"差し上げ\", \"まいり\", \"申し上げ\"],\n        \"correct_answer\": \"1\"\n    },\n    {\n        \"question_id\": \"30\",\n        \"question_type\": \"multiple_choice\",\n        \"question_text\": \"(求人サイトのよくある質闘で Q：インテリアに関する知識がないのですが働けますか A ：研修があるので大丈夫です 知畿はある がそれよりも人柄や仕事に取り 粗む姿势を重视しています\",\n        \"options\": [\"にすぎません\", \"ことは否めません\", \"に越したことはありません\", \"といっても遍言ではありません\"],\n        \"correct_answer\": \"3\"\n    },\n    {\n        \"question_id\": \"31\",\n        \"question_type\": \"multiple_choice\",\n        \"question_text\": \"(お知らせで)水道管破裂による断水のため8月 12 日まで市民プールの営業を体止し ま寸復旧状況( 営業再盟が遅れる可能性がありますのでご了承ください\",\n        \"options\": [\"次第には\", \"次第に\", \"次第では\", \"次第\"],\n        \"correct_answer\": \"3\"\n    },\n    {\n        \"question_id\": \"32\",\n        \"question_type\": \"multiple_choice\",\n        \"question_text\": \"グレジットカードの番号等他人に 困石情報は電子メールには書かないほう がいいそうだ\",\n        \"options\": [\"知っていても\", \"知っていなくても\", \"知らなくては\", \"知られては\"],\n        \"correct_answer\": \"4\"\n    },\n    {\n        \"question_id\": \"33\",\n        \"question_type\": \"multiple_choice\",\n        \"question_text\": \"仕事は决められた時間内にいかに成果を上げるかが大切であり単に時闘をかけて ( と私は思う\",\n        \"options\": [\"がんばることだといってもおかしくない\", \"がんばればいいというものではない\", \"がんばることでしかない\", \"がんばりようがない\"],\n        \"correct_answer\": \"2\"\n    },\n    {\n        \"question_id\": \"34\",\n        \"question_type\": \"multiple_choice\",\n        \"question_text\": \"現在潜水調查船を用いた調查研究が進展中でありいずれ近いうちに海底のより詳細 な地質構造が明らかに\",\n        \"options\": [\"なるものと思われる\", \"するという思いがある\", \"なったかに思える\", \"するだろうと思う\"],\n        \"correct_answer\": \"1\"\n    },\n    {\n        \"question_id\": \"35\",\n        \"question_type\": \"multiple_choice\",\n        \"question_text\": \"山下あのう西村先辈私今日でこのサークルを 西村ええ?辞める 急にどうして?\",\n        \"options\": [\"辞めて",
+            "extraction_status": "failed",
+            "chunk_index": 5
+        }
+    ]
+}
