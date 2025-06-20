@@ -1,5 +1,6 @@
 import os
 from langchain_deepseek import ChatDeepSeek
+from langchain_anthropic import ChatAnthropic
 
 
 class DeepSeekModel:
@@ -27,5 +28,12 @@ class ClaudeModel:
     """
     claude model
     """
-    pass
-
+    def __init__(self):
+        self.client = ChatAnthropic(
+            model_name="claude-3-5-sonnet-20241022",
+            temperature=0.7,
+            max_tokens_to_sample=2048,
+            timeout=60,
+            max_retries=3,
+            stop=None
+        )
