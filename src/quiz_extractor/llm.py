@@ -10,8 +10,8 @@ class DeepSeekModel:
     def __init__(self):
         self.client = ChatDeepSeek(
             model="deepseek-chat",
-            temperature=0.7,
-            max_tokens=1024,
+            temperature=1.0,
+            max_tokens=2048,
             timeout=60,
             max_retries=3,
         )
